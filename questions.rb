@@ -12,6 +12,7 @@ end
 
 # remove instances of nil (but NOT false) from an array
 def remove_nils_from_array(array)
+  array.compact
   
 end
 
