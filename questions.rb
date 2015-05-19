@@ -54,6 +54,7 @@ end
 # sort an array of words by their last letter, e.g.
 # ['sky', 'puma', 'maker'] becomes ['puma', 'maker', 'sky']
 def array_sort_by_last_letter_of_word(array)
+  array.sort_by{|letter| letter.slice(-1)}
   
 end
 
